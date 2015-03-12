@@ -14,8 +14,8 @@
 		DB7E8EEE1AB161D400FF9E5F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB7E8EED1AB161D400FF9E5F /* Images.xcassets */; };
 		DB7E8EF11AB161D400FF9E5F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB7E8EEF1AB161D400FF9E5F /* LaunchScreen.xib */; };
 		DB7E8EFD1AB161D400FF9E5F /* CircularProgressViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7E8EFC1AB161D400FF9E5F /* CircularProgressViewSampleTests.m */; };
-		DB7E8F081AB1622A00FF9E5F /* CircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7E8F071AB1622A00FF9E5F /* CircularProgressView.m */; };
-		DB7E8F0B1AB1738100FF9E5F /* ProgressUpdator.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7E8F0A1AB1738100FF9E5F /* ProgressUpdator.m */; };
+		DB7E8F111AB1882C00FF9E5F /* CircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7E8F0E1AB1882C00FF9E5F /* CircularProgressView.m */; };
+		DB7E8F121AB1882C00FF9E5F /* ProgressUpdator.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7E8F101AB1882C00FF9E5F /* ProgressUpdator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +42,10 @@
 		DB7E8EF61AB161D400FF9E5F /* CircularProgressViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircularProgressViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB7E8EFB1AB161D400FF9E5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB7E8EFC1AB161D400FF9E5F /* CircularProgressViewSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircularProgressViewSampleTests.m; sourceTree = "<group>"; };
-		DB7E8F061AB1622A00FF9E5F /* CircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularProgressView.h; sourceTree = "<group>"; };
-		DB7E8F071AB1622A00FF9E5F /* CircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularProgressView.m; sourceTree = "<group>"; };
-		DB7E8F091AB1738100FF9E5F /* ProgressUpdator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressUpdator.h; sourceTree = "<group>"; };
-		DB7E8F0A1AB1738100FF9E5F /* ProgressUpdator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressUpdator.m; sourceTree = "<group>"; };
+		DB7E8F0D1AB1882C00FF9E5F /* CircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularProgressView.h; sourceTree = "<group>"; };
+		DB7E8F0E1AB1882C00FF9E5F /* CircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularProgressView.m; sourceTree = "<group>"; };
+		DB7E8F0F1AB1882C00FF9E5F /* ProgressUpdator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressUpdator.h; sourceTree = "<group>"; };
+		DB7E8F101AB1882C00FF9E5F /* ProgressUpdator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressUpdator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +87,7 @@
 		DB7E8EDF1AB161D400FF9E5F /* CircularProgressViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				DB7E8F0C1AB187DE00FF9E5F /* CircularProgressView */,
 				DB7E8EE41AB161D400FF9E5F /* AppDelegate.h */,
 				DB7E8EE51AB161D400FF9E5F /* AppDelegate.m */,
 				DB7E8EE71AB161D400FF9E5F /* ViewController.h */,
@@ -95,10 +96,6 @@
 				DB7E8EED1AB161D400FF9E5F /* Images.xcassets */,
 				DB7E8EEF1AB161D400FF9E5F /* LaunchScreen.xib */,
 				DB7E8EE01AB161D400FF9E5F /* Supporting Files */,
-				DB7E8F061AB1622A00FF9E5F /* CircularProgressView.h */,
-				DB7E8F071AB1622A00FF9E5F /* CircularProgressView.m */,
-				DB7E8F091AB1738100FF9E5F /* ProgressUpdator.h */,
-				DB7E8F0A1AB1738100FF9E5F /* ProgressUpdator.m */,
 			);
 			path = CircularProgressViewSample;
 			sourceTree = "<group>";
@@ -127,6 +124,17 @@
 				DB7E8EFB1AB161D400FF9E5F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB7E8F0C1AB187DE00FF9E5F /* CircularProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				DB7E8F0D1AB1882C00FF9E5F /* CircularProgressView.h */,
+				DB7E8F0E1AB1882C00FF9E5F /* CircularProgressView.m */,
+				DB7E8F0F1AB1882C00FF9E5F /* ProgressUpdator.h */,
+				DB7E8F101AB1882C00FF9E5F /* ProgressUpdator.m */,
+			);
+			path = CircularProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,10 +237,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB7E8F0B1AB1738100FF9E5F /* ProgressUpdator.m in Sources */,
 				DB7E8EE91AB161D400FF9E5F /* ViewController.m in Sources */,
 				DB7E8EE61AB161D400FF9E5F /* AppDelegate.m in Sources */,
-				DB7E8F081AB1622A00FF9E5F /* CircularProgressView.m in Sources */,
+				DB7E8F121AB1882C00FF9E5F /* ProgressUpdator.m in Sources */,
+				DB7E8F111AB1882C00FF9E5F /* CircularProgressView.m in Sources */,
 				DB7E8EE31AB161D400FF9E5F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
