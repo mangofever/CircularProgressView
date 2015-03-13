@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = 'CircularProgressView'
+  spec.name         = 'SimpleCircularProgressView'
   spec.version      = '1.0'
   spec.license      = 'MIT'
   spec.summary      = 'Simple Circular Progress View for iOS'
